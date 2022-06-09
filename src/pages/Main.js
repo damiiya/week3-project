@@ -1,9 +1,13 @@
-function Main() {
+import React from "react";
+import styled from "styled-components";
+import PostList from "../components/PostList";
+
+const Main = (props) => {
   return (
-    <div>
-      <h1>메인페이지</h1>
-    </div>
+    <>
+      <PostList />
+    </>
   );
-}
+};
 
 export default Main;

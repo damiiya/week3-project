@@ -5,10 +5,12 @@ import Login from "./pages/Login.js";
 import SignUp from "./pages/SignUp.js";
 import Posting from "./pages/Posting.js";
 import DetailPost from "./pages/DetailPost.js";
+import Header from "./components/Header.js";
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/Login" element={<Login />} />
